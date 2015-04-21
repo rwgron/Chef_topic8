@@ -1,0 +1,15 @@
+{
+  "name": "vm1",
+  "json_class": "Chef::Node",
+  "chef_type": "node",
+  "chef_environment": "chef_dev",
+  "normal": {
+    "fqdn": "vm1"
+  },
+  "default": {},
+  "override": {},
+  "run_list": [
+    "role[jboss]",
+    "recipe[jboss::deploy]"
+  ]
+}
